@@ -18,14 +18,14 @@ recommendation system.
 and receive movie recommendations accordingly.
 
 Tools:
-● Python: for data preparation and analysis
-● Pandas library: analyzing, cleaning, manipulating dataset
-● Scikit-learn: collaborative filtering techniques
-● Flask: for deploying the project as a web-app
+- Python: for data preparation and analysis
+- Pandas library: analyzing, cleaning, manipulating dataset
+- Scikit-learn: collaborative filtering techniques
+- Flask: for deploying the project as a web-app
 
 Preliminary plan for the code (can be edited/elaborated further)
-● Interface set up for users (perhaps web interface/html). Users can pick/input x amount of movies they like or rate x amount of movies.
-● Machine learning model trained on the dataset consisting of movie data. Perhaps a user-based collaborative filtering or clustering model (k-nearest neighbor model?)
-● ML model suggests movie(s) to watch based on preferences.
-● A plan for principle of suggestions: User A using the recommendation site likes movies x and y. Find users with similar movie preferences. User B from the dataset likes movies x, y, and z. Suggest movie z to User A. Liking could be based on user ratings.
-● Alternative plan: Cluster movies based on user ratings and genres. Determine what movies and genres User A likes based on ratings inputted. Suggest movies which have been clustered close to the liked movies.
+- Interface set up for users (perhaps web interface/html). Users can pick/input x amount of movies they like or rate x amount of movies.
+- Machine learning model trained on the dataset consisting of movie data. Perhaps a user-based collaborative filtering or clustering model (k-nearest neighbor model?)
+- ML model suggests movie(s) to watch based on preferences.
+- A plan for principle of suggestions: User A using the recommendation site likes movies x and y. Find users with similar movie preferences. User B from the dataset likes movies x, y, and z. Suggest movie z to User A. Liking could be based on user ratings.
+- Alternative plan: Cluster movies based on user ratings and genres. Determine what movies and genres User A likes based on ratings inputted. Suggest movies which have been clustered close to the liked movies.
