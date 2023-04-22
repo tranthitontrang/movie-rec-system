@@ -1,0 +1,11 @@
+<!-- recommendations.html -->
+<html>
+    <body>
+        <h2>Recommended Movies:</h2>
+        <ul>
+            {% for movie_id, rating in recommendations %}
+                <li>{{ movie_id }} - {{ rating }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
