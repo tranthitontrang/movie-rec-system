@@ -1,6 +1,6 @@
 # movie-rec-system
 Movie recommendation system using training data from Kaggle
-
+Link to prototype: http://trangtran.pythonanywhere.com/
 Dataset: The MovieLens dataset on Kaggle
 (https://www.kaggle.com/grouplens/movielens-20m-dataset)
 
